@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# Bank-project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+using React JS && Tailwind UI
 ## Available Scripts
 
 In the project directory, you can run:
