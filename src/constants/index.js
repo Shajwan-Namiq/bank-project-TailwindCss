@@ -14,23 +14,27 @@ import {
   shield,
   star,
 } from "../assets";
-
+ 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
+    link: "/",
   },
   {
     id: "features",
     title: "Features",
+    link: "/Features",
   },
   {
     id: "product",
     title: "Product",
+    link: "/Product",
   },
   {
     id: "clients",
     title: "Clients",
+    link: "/Clients",
   },
 ];
 

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./style.css";
 import {
    Billing,
    Business,
@@ -15,10 +15,10 @@ import {
  
 function App() {
   return (
-    <>
-       <p> hi <p/>
+    <div className="bg-slate-900 w-full overflow-hidden">
       <Navbar />
-    </>
+      <Hero />
+    </div>
   );
 }
 
