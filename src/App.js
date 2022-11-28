@@ -16,7 +16,7 @@ import {
 function App() {
   return (
     <>
-       <p> hi <p/>
+        
       <Navbar />
     </>
   );
