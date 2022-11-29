@@ -18,7 +18,7 @@ function App() {
     <div className="bg-slate-900">
       <Navbar />
       <Hero />
-      <Business />
+      <Stats />
     </div>
   );
 }

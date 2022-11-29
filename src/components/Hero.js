@@ -70,10 +70,7 @@ const Hero = () => {
 
         <div>
           {/* gradient start */}
-          <div className="absolute z-[5]  w-[10%] h-[50%]   lg:w-[40%] lg:h-[35%] lg:top-10 pink__gradient" />
-          <div className="absolute z-[1] w-[20%] h-[50%]    lg:w-[40%] lg:h-[50%] rounded-full white__gradient lg:bottom-5" />
-          <div className="absolute z-[0] w-[250%] h-[50%]   lg:w-[50%] lg:h-[40%] right-20 lg:bottom-10 blue__gradient" />
-          {/* gradient end */}
+            {/* gradient end */}
           <img alt="Violin" src={robot} class=" h-full w-full object-cover  " />
         </div>
       </section>
