@@ -1,6 +1,6 @@
 import React from 'react'
 import { logo } from "../assets";
-import { navLinks, footerLinks } from "../constants";
+import { navLinks, footerLinksnav } from "../constants";
  
 
 const Navbar = () => {
@@ -119,9 +119,9 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="py-6 px-2 max-w-[800px]">
-              <ul className="flex flex-row space-x-10 ">
-                {footerLinks.map((footerlink) => (
+            <div className="py-6 px-5 max-w-[800px]">
+              <ul className="flex flex-row space-x-20 ">
+                {footerLinksnav.map((footerlink) => (
                   <li key={footerlink.title}>
                     {footerlink.title}
 
