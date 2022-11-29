@@ -16,9 +16,9 @@ import {
 function App() {
   return (
     <div className="bg-slate-900">
-    
-       <Navbar />
+      <Navbar />
       <Hero />
+      <Business />
     </div>
   );
 }

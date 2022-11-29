@@ -49,7 +49,7 @@ const Navbar = () => {
                     <a
                       key={link.name}
                       href={link.link}
-                      className="text-base font-medium text-white text-color-hover cursor-pointer"
+                      className="text-base font-medium text-color text-color-hover cursor-pointer"
                     >
                       {link.title}
                     </a>
