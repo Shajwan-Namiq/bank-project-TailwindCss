@@ -1,73 +1,77 @@
- .text-color-hover:hover {
-     color: rgba(92, 225, 230, 1);
- }
- 
- .text-color {
-     color: rgb(246, 246, 246);
- }
- 
- .text-color-btn {
-     border: 2px solid rgba(92, 225, 230, 1);
-     color: rgba(92, 225, 230, 1);
- }
- 
- .btn-hover:hover {
-     color: rgb(254, 254, 254);
-     background-color: rgba(92, 225, 230, 1);
- }
- 
- .size-screen {
-     max-width: 1300px;
-     text-align: center;
-     margin: auto;
-     padding: 60px 10px;
- }
- 
- .bg-discount-gradient {
-     background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
- }
- 
- .text-gradient {
-     font-weight: 600;
-     line-height: 140%;
-     letter-spacing: 0.01em;
-     background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-     ;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     background-clip: text;
- }
- 
- .text-hero {
-     font-family: 'Poppins';
-     font-style: normal;
-     font-weight: 500;
-     line-height: 140%;
-     letter-spacing: 0.01em;
-     color: #FFFFFF;
- }
- 
- .pink__gradient {
-     background: linear-gradient(20deg, #f4c4f3 0%, #281828 10%);
-     filter: blur(900px);
- }
- 
- .white__gradient {
-     background: rgba(255, 255, 255, 0.6);
-     filter: blur(750px);
- }
- 
- .blue__gradient {
-     background: linear-gradient(100deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-     filter: blur(123px);
- }
- 
- .text-stats {
-     font-family: 'Poppins';
-     font-style: normal;
-     background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
-     ;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     background-clip: text;
- }
+.body-color {
+    background-color: rgba(0, 4, 15, 1);
+}
+
+.text-color-hover:hover {
+    color: rgba(92, 225, 230, 1);
+}
+
+.text-color {
+    color: rgb(246, 246, 246);
+}
+
+.text-color-btn {
+    border: 2px solid rgba(92, 225, 230, 1);
+    color: rgba(92, 225, 230, 1);
+}
+
+.btn-hover:hover {
+    color: rgb(254, 254, 254);
+    background-color: rgba(92, 225, 230, 1);
+}
+
+.size-screen {
+    max-width: 1300px;
+    text-align: center;
+    margin: auto;
+    padding: 60px 10px;
+}
+
+.bg-discount-gradient {
+    background: linear-gradient(125.17deg, #272727 0%, #11101D 100%);
+}
+
+.text-gradient {
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-hero {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.pink__gradient {
+    background: linear-gradient(20deg, #f4c4f3 0%, #010120 10%);
+    filter: blur(900px);
+}
+
+.white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+}
+
+.blue__gradient {
+    background: linear-gradient(100deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+}
+
+.text-stats {
+    font-family: 'Poppins';
+    font-style: normal;
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

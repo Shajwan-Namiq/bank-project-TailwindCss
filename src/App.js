@@ -15,7 +15,7 @@ import {
  
 function App() {
   return (
-    <div className="bg-slate-900">
+    <div className=" body-color">
       <Navbar />
       <Hero />
       <Stats />

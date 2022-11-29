@@ -35,9 +35,7 @@ const Hero = () => {
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.
             </p>
-            
-            
-            
+
             <div class=" mb-10 mt-4 md:mt-8">
               <a
                 class="group relative inline-flex items-center overflow-hidden rounded border border-current px-10 py-3  text-color-btn btn-hover focus:outline-none focus:ring active:text-slate-500"
@@ -68,11 +66,23 @@ const Hero = () => {
           </div>
         </div>
 
-        <div>
+       
+        <div
+          className="flex-1 flex   md:my-0 my-10 relative"
+        >
+          <img
+            src={robot}
+            alt="billing"
+            className="w-[100%] h-[100%] relative z-[5]"
+          />
+
           {/* gradient start */}
-            {/* gradient end */}
-          <img alt="Violin" src={robot} class=" h-full w-full object-cover  " />
+          <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+          <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
+          <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+          {/* gradient end */}
         </div>
+
       </section>
     </>
   );
