@@ -12,7 +12,17 @@
     color: rgb(255, 255, 255);
 }
 
-.text-color-btn {
+.txt-hover:hover {
+    color: rgba(92, 225, 230, 1);
+}
+
+.hover-icon:hover {
+    background-color: rgba(92, 225, 230, 1);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h .text-color-btn {
     border: 2px solid rgba(92, 225, 230, 1);
     color: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
 }
