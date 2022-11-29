@@ -3,16 +3,18 @@
 }
 
 .text-color-hover:hover {
-    color: rgba(92, 225, 230, 1);
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+    color: white;
 }
 
 .text-color {
-    color: rgb(246, 246, 246);
+    color: rgb(255, 255, 255);
 }
 
 .text-color-btn {
     border: 2px solid rgba(92, 225, 230, 1);
-    color: rgba(92, 225, 230, 1);
+    color: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
 }
 
 .btn-hover:hover {

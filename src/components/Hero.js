@@ -58,7 +58,7 @@ const Hero = () => {
                   </svg>
                 </span>
 
-                <span class="text-lg font-normal transition-all group-hover:mr-4">
+                <span class="text-color text-lg font-normal transition-all group-hover:mr-4">
                   Get Started
                 </span>
               </a>
@@ -66,10 +66,7 @@ const Hero = () => {
           </div>
         </div>
 
-       
-        <div
-          className="flex-1 flex   md:my-0 my-10 relative"
-        >
+        <div className="flex-1 flex   md:my-0 my-10 relative">
           <img
             src={robot}
             alt="billing"
@@ -82,7 +79,6 @@ const Hero = () => {
           <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
           {/* gradient end */}
         </div>
-
       </section>
     </>
   );

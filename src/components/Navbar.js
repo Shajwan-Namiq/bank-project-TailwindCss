@@ -43,19 +43,19 @@ const Navbar = () => {
             </div>
 
             <nav className="hidden md:flex space-x-10">
-              <ul className="flex space-x-14 ">
+              <div className="flex space-x-14 ">
                 {navLinks.map((link) => (
                   <>
                     <a
                       key={link.name}
                       href={link.link}
-                      className="text-base font-medium text-color text-color-hover cursor-pointer"
+                      className="px-2 text-base font-medium text-color text-color-hover cursor-pointer"
                     >
                       {link.title}
                     </a>
                   </>
                 ))}
-              </ul>
+              </div>
             </nav>
           </div>
         </div>
@@ -119,17 +119,17 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="py-6 px-5 max-w-[800px]">
-              <ul className="flex flex-row space-x-20 ">
+            <div className="py-5 px-5 max-w-[700px]">
+              <ul className="flex flex-row space-x-10 md:space-x-20 ">
                 {footerLinksnav.map((footerlink) => (
                   <li key={footerlink.title}>
                     {footerlink.title}
 
                     <div className="py-2">
-                      {footerlink.links.map((link, index) => (
+                      {footerlink.links.map((link) => (
                         <li
                           key={link.name}
-                          className=" text-color-hover py-1 text-base font-thin text-gray-300  cursor-pointer"
+                          className="px-2 py-1 text-color-hover  text-base font-thin text-gray-300  cursor-pointer"
                         >
                           {link.name}
                         </li>

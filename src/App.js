@@ -19,6 +19,7 @@ function App() {
       <Navbar />
       <Hero />
       <Stats />
+      <Business />
     </div>
   );
 }
