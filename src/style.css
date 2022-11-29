@@ -6,6 +6,16 @@
      color: rgb(246, 246, 246);
  }
  
+ .text-color-btn {
+     border: 2px solid rgba(92, 225, 230, 1);
+     color: rgba(92, 225, 230, 1);
+ }
+ 
+ .btn-hover:hover {
+     color: rgb(254, 254, 254);
+     background-color: rgba(92, 225, 230, 1);
+ }
+ 
  .size-screen {
      max-width: 1300px;
      text-align: center;

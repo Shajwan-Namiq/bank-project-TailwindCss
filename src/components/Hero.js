@@ -5,10 +5,10 @@ import { discount, robot } from "../assets";
 const Hero = () => {
   return (
     <>
-      <section class="  sm:grid sm:grid-cols-2  sm:items-center">
+      <section class="sm:max-w-sm md:max-w-full  lg:max-w-full mx-auto lg:mx-0  sm:grid sm:grid-cols-2  sm:items-center">
         <div class="py-0  md:p-12 lg:px-16">
-          <div class="mt-2 lg:mt-0 mx-auto max-w-xl text-center sm:text-left">
-            <div className="max-w-md mx-auto lg:mx-0 text-sm lg:text-lg text-slate-600 flex flex-row items-center py-[6px] px-2 uppercase   bg-discount-gradient rounded-[10px] mb-2">
+          <div class="mt-2 lg:mt-0 text-center sm:text-left">
+            <div className="text-sm lg:text-lg text-slate-600 flex flex-row items-center py-[6px] px-2 uppercase   bg-discount-gradient rounded-[10px] mb-2">
               <img
                 src={discount}
                 alt="discount"
@@ -20,7 +20,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div>
+            <div className="">
               <h2 class="text-5xl font-bold text-hero  md:text-7xl">
                 The Next
               </h2>
@@ -35,12 +35,34 @@ const Hero = () => {
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.
             </p>
-            <div class="mt-4 md:mt-8">
+            
+            
+            
+            <div class=" mb-10 mt-4 md:mt-8">
               <a
-                href="#"
-                class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                class="group relative inline-flex items-center overflow-hidden rounded border border-current px-10 py-3  text-color-btn btn-hover focus:outline-none focus:ring active:text-slate-500"
+                href="/download"
               >
-                Get Started Today
+                <span class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
+                  <svg
+                    class="h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </span>
+
+                <span class="text-lg font-normal transition-all group-hover:mr-4">
+                  Get Started
+                </span>
               </a>
             </div>
           </div>
@@ -48,9 +70,9 @@ const Hero = () => {
 
         <div>
           {/* gradient start */}
-          <div className="absolute z-[0]  w-[10%] h-[50%]   lg:w-[40%] lg:h-[35%] lg:top-0 pink__gradient" />
-          <div className="absolute z-[1] w-[20%] h-[50%]    lg:w-[40%] lg:h-[80%] rounded-full white__gradient lg:bottom-40" />
-          <div className="absolute z-[0] w-[250%] h-[50%]   lg:w-[50%] lg:h-[100%] right-20 lg:bottom-20 blue__gradient" />
+          <div className="absolute z-[5]  w-[10%] h-[50%]   lg:w-[40%] lg:h-[35%] lg:top-10 pink__gradient" />
+          <div className="absolute z-[1] w-[20%] h-[50%]    lg:w-[40%] lg:h-[50%] rounded-full white__gradient lg:bottom-5" />
+          <div className="absolute z-[0] w-[250%] h-[50%]   lg:w-[50%] lg:h-[40%] right-20 lg:bottom-10 blue__gradient" />
           {/* gradient end */}
           <img alt="Violin" src={robot} class=" h-full w-full object-cover  " />
         </div>
