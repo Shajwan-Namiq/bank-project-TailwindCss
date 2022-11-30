@@ -35,6 +35,7 @@
 
 .text-color {
     color: rgb(255, 255, 255);
+    line-height: 1.5em;
 }
 
 .txt-hover:hover {
