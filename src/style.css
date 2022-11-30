@@ -8,6 +8,12 @@
     color: white;
 }
 
+.cta-bg {
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    border-radius: 20px;
+}
+
 .section-hover:hover {
     box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
     border-radius: 20px;

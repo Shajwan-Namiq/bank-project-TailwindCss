@@ -6,7 +6,7 @@ const Clients = () => {
   return (
     <>
       <section class="py-5">
-        <div class="max-w-5xl mx-auto  mt-36">
+        <div class="max-w-6xl mx-auto mt-10 lg:mt-36">
           <div class="grid grid-cols-2 lg:grid-cols-4 gap-10 ">
             {clients.map((client) => (
               <div
