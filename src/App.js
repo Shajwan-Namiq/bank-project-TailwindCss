@@ -21,6 +21,8 @@ function App() {
       <Stats />
       <Business />
       <Billing />
+      <CardDeal />
+      <Testimonials />
       <Footer />
     </div>
   );

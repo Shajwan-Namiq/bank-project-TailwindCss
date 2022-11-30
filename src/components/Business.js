@@ -69,7 +69,7 @@ const Business = () => {
                       </svg>
                     </span>
 
-                    <span class=" text-lg font-normal transition-all group-hover:mr-4">
+                    <span class=" text-lg  transition-all group-hover:mr-4">
                       Business
                     </span>
                   </a>
