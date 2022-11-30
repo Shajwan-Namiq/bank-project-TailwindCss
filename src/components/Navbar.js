@@ -5,7 +5,7 @@ import { navLinks, footerLinksnav } from "../constants";
 
 const Navbar = () => {
     const [open, setOpen] = React.useState(false);
- 
+   
   return (
     <>
       <div className="relative">
@@ -44,12 +44,16 @@ const Navbar = () => {
 
             <nav className="hidden md:flex space-x-10">
               <div className="flex space-x-14 ">
-                {navLinks.map((link) => (
+                {navLinks.map((link, index) => (
                   <>
                     <a
                       key={link.name}
                       href={link.link}
-                      className="px-2 text-base font-medium text-color text-color-hover cursor-pointer"
+                      activeStyle={{ color: "red" }}
+                      className={` ${
+                        link.id === "home" ? "text-nav" : "text-color"
+                      } 
+                      px-2 text-base font-medium  text-color-hover cursor-pointer`}
                     >
                       {link.title}
                     </a>

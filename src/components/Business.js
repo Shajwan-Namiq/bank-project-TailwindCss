@@ -37,7 +37,7 @@ const Business = () => {
           <div class="items-center lg:flex">
             <div class="px-6 w-full lg:w-1/2">
               <div class="lg:max-w-lg">
-                <h1 class="text-3xl font-semibold  text-color lg:text-4xl">
+                <h1 class="text-3xl font-semibold  text-color lg:text-6xl">
                   You do the business, we’ll handle the money.
                 </h1>
 
@@ -84,11 +84,7 @@ const Business = () => {
                 ))}
               </div>
 
-              {/**<img
-                class="w-full h-full lg:max-w-3xl"
-                src="/images/components/Catalogue-pana.svg"
-                alt="Catalogue-pana.svg"
-              /> */}
+             
             </div>
           </div>
         </div>

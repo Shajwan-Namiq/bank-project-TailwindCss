@@ -20,6 +20,7 @@ function App() {
       <Hero />
       <Stats />
       <Business />
+      <Billing />
       <Footer />
     </div>
   );
