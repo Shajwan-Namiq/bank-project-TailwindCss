@@ -30,7 +30,7 @@ const Hero = () => {
               </h2>
             </div>
 
-            <p class="max-w-md mx-auto lg:mx-0 text-gray-500 md:mt-4 md:block">
+            <p class="max-w-md mx-auto lg:mx-0 text-section md:mt-4 md:block">
               Our team of experts uses a methodology to identify the credit
               cards most likely to fit your needs. We examine annual percentage
               rates, annual fees.
@@ -58,7 +58,7 @@ const Hero = () => {
                   </svg>
                 </span>
 
-                <span class="text-color text-lg font-normal transition-all group-hover:mr-4">
+                <span class=" text-lg font-normal transition-all group-hover:mr-4">
                   Get Started
                 </span>
               </a>
@@ -74,10 +74,7 @@ const Hero = () => {
           />
 
           {/* gradient start */}
-          <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-          <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-          <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-          {/* gradient end */}
+            {/* gradient end */}
         </div>
       </section>
     </>
