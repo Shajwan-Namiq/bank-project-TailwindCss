@@ -24,6 +24,7 @@ function App() {
       <CardDeal />
       <Testimonials />
       <Clients />
+      <CTA />
       <Footer />
     </div>
   );
