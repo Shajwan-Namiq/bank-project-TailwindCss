@@ -14,7 +14,7 @@ import {
   shield,
   star,
 } from "../assets";
- 
+
 export const navLinks = [
   {
     id: "home",
@@ -37,7 +37,6 @@ export const navLinks = [
     link: "/Clients",
   },
 ];
-
 
 export const features = [
   {
@@ -77,7 +76,7 @@ export const feedback = [
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Developer",
     img: people02,
   },
   {
@@ -85,8 +84,32 @@ export const feedback = [
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "UI/UX Designer",
     img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Sarah Jones",
+    title: "Teacher & Leader",
+    img: "https://spng.pngfind.com/pngs/s/443-4433119_circle-crop-profile-profile-picture-woman-circle-hd.png",
+  },
+  {
+    id: "feedback-5",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Jorg mark",
+    title: "Project Manager",
+    img: "https://www.pngfind.com/pngs/m/488-4887957_facebook-teerasej-profile-ball-circle-circular-profile-picture.png",
+  },
+  {
+    id: "feedback-6",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Nate Gallagher",
+    title: "Project Cordinator",
+    img: "https://www.pngfind.com/pngs/m/170-1700158_my-new-youtube-profile-icon-png-youtube-profile.png",
   },
 ];
 
@@ -141,11 +164,9 @@ export const footerLinksnav = [
         name: "Suggestions",
         link: "https://www.hoobank.com/suggestions/",
       },
-      
     ],
   },
 ];
- 
 
 export const footerLinks = [
   {
@@ -212,7 +233,6 @@ export const footerLinks = [
     ],
   },
 ];
-
 
 export const socialMedia = [
   {

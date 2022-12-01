@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import { quotes } from "../assets";
 
-const FeedbackCard = ({content, name, title, img }) => {
+const FeedbackCard = ({ content, name, title, img }) => {
   return (
     <>
       <section class="">
-        <div class="container px-6 py-5  ">
+        <div class="container px-4 lg:px-0 py-0 lg:py-5  ">
           <div className="flex items-center justify-center w-full  ">
             <section class=" section-hover cursor-pointer ">
               <div class="p-8  border rounded-xl dark:border-gray-700">
@@ -34,6 +34,6 @@ const FeedbackCard = ({content, name, title, img }) => {
       </section>
     </>
   );
-}
+};
 
-export default FeedbackCard
+export default FeedbackCard;
