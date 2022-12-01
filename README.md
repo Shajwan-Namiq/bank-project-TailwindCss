@@ -5,6 +5,7 @@
 <ul>
 Tools :
 <li>React JS  </li>
+<li>Swiper JS  </li>
 <li>Tailwind UI  </li>
 <li>CSS </li>
 <li>HTML </li>
