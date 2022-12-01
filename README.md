@@ -3,11 +3,11 @@
 
 
 <ul>
-using:
-<li>-React JS  </li>
-<li>-Tailwind UI  </li>
-<li> -CSS </li>
-<li>-HTML </li>
+Tools :
+<li>React JS  </li>
+<li>Tailwind UI  </li>
+<li>CSS </li>
+<li>HTML </li>
 </ul>
 
 
