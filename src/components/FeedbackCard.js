@@ -5,11 +5,11 @@ const FeedbackCard = ({ content, name, title, img }) => {
   return (
     <>
       <section class="">
-        <div class="container px-4 lg:px-0 py-0 lg:py-5  ">
+        <div class="container px-0  py-0 lg:py-5  ">
           <div className="flex items-center justify-center w-full  ">
             <section class=" section-hover cursor-pointer ">
               <div class="p-8  border rounded-xl dark:border-gray-700">
-                <p class="leading-loose text-section h-32">{content}</p>
+                <p class="leading-loose text-section lg:h-32">{content}</p>
 
                 <div class="flex items-center mt-8 -mx-2">
                   <img

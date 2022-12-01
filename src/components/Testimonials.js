@@ -40,7 +40,7 @@ const Testimonials = () => {
         </div>
       </header>
 
-      <div className="mx-5 lg:mx-14 ">
+      <div className="mx-2 lg:mx-14 ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
           grabCursor={true}
@@ -68,7 +68,7 @@ const Testimonials = () => {
         >
           {feedback.map((card) => (
             <SwiperSlide key={card.id} className=" ">
-              <div className="mx-10   lg:mx-14">
+              <div className="mx-12   lg:mx-14">
                 <FeedbackCard key={card.id} {...card} />
               </div>
             </SwiperSlide>
