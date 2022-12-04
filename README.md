@@ -18,7 +18,7 @@ Tools :
 
 
 Live Demo  https://bank-project-tailwind-css.vercel.app/
+
  
- 
-<a href="https://ibb.co/HpVprx4"><img src="https://i.ibb.co/VptpvQ9/result.png" alt="result" border="0"></a>
+ <a href="https://ibb.co/K04d4Yt"><img src="https://i.ibb.co/1vy1y3C/bank-project-tailwind-css-vercel-app.png" alt="bank-project-tailwind-css-vercel-app" border="0"></a>
  
