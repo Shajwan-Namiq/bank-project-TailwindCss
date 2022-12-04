@@ -10,6 +10,7 @@ Tools :
 <li>Tailwind UI  </li>
 <li>CSS </li>
 <li>HTML </li>
+<li>JSON File </li>
 </ul>
 
 
