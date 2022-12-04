@@ -10,6 +10,7 @@ Tools :
 <li>Tailwind UI  </li>
 <li>CSS </li>
 <li>HTML </li>
+<li>JSON File </li>
 </ul>
 
 
@@ -17,10 +18,7 @@ Tools :
 
 
 Live Demo  https://bank-project-tailwind-css.vercel.app/
-<<<<<<< HEAD
 
  
-=======
+ <a href="https://bank-project-tailwind-css.vercel.app/"><img src="https://i.ibb.co/1vy1y3C/bank-project-tailwind-css-vercel-app.png" alt="bank-project-tailwind-css-vercel-app" border="0"></a>
  
-<a href="https://ibb.co/HpVprx4"><img src="https://i.ibb.co/VptpvQ9/result.png" alt="result" border="0"></a>
->>>>>>> 450a1d0653615eb88e76fcecae425ed9f3784636
