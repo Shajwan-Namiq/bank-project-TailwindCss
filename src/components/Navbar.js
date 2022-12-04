@@ -1,10 +1,12 @@
 import React from "react";
 import { logo } from "../assets";
 import { navLinks, footerLinksnav } from "../constants";
+import { useState } from "react";
+
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
-
+  const [active, setActive] = useState("Home");
   return (
     <>
       <div className="relative">
@@ -43,19 +45,24 @@ const Navbar = () => {
 
             <nav className="hidden md:flex space-x-10">
               <ul className="flex space-x-14 ">
-                {navLinks.map((link, index) => (
+                {navLinks.map((nav, index) => (
                   <>
-                    <li key={index}>
+                    <li key={nav.id}>
                       <a
-                        href={link.link}
+                        href={`#${nav.id}`}
                         activestyle={{ color: "red" }}
-                        className={` ${
-                          link.id === "home" ? "text-nav" : "text-color"
-                        } 
-                      px-2 text-base font-medium  text-color-hover cursor-pointer`}
+                        className={` 
+                        ${active === nav.title ? "text-nav" : "text-color"}
+                        ${
+                          index === navLinks.length - 1
+                            ? "mr-0"
+                            : "mr-10"
+                        }
+             
+                       px-2 text-base font-medium  text-color-hover cursor-pointer`}
+                        onClick={() => setActive(nav.title)}
                       >
-                        {" "}
-                        {link.title}
+                        {nav.title}
                       </a>
                     </li>
                   </>
@@ -128,9 +135,7 @@ const Navbar = () => {
               <ul className="flex flex-row space-x-10 md:space-x-20 ">
                 {footerLinksnav.map((footerlink) => (
                   <li key={footerlink.id}>
-                   
-                      <a href=""> {footerlink.title}</a>
-                   
+                    <a href=""> {footerlink.title}</a>
 
                     <ul className="py-2">
                       {footerlink.links.map((link) => (
