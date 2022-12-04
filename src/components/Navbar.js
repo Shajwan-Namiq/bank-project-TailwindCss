@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import { logo } from "../assets";
 import { navLinks, footerLinksnav } from "../constants";
- 
 
 const Navbar = () => {
-    const [open, setOpen] = React.useState(false);
-   
+  const [open, setOpen] = React.useState(false);
+
   return (
     <>
       <div className="relative">
@@ -43,23 +42,25 @@ const Navbar = () => {
             </div>
 
             <nav className="hidden md:flex space-x-10">
-              <div className="flex space-x-14 ">
+              <ul className="flex space-x-14 ">
                 {navLinks.map((link, index) => (
                   <>
-                    <a
-                      key={link.name}
-                      href={link.link}
-                      activeStyle={{ color: "red" }}
-                      className={` ${
-                        link.id === "home" ? "text-nav" : "text-color"
-                      } 
+                    <li key={index}>
+                      <a
+                        href={link.link}
+                        activestyle={{ color: "red" }}
+                        className={` ${
+                          link.id === "home" ? "text-nav" : "text-color"
+                        } 
                       px-2 text-base font-medium  text-color-hover cursor-pointer`}
-                    >
-                      {link.title}
-                    </a>
+                      >
+                        {" "}
+                        {link.title}
+                      </a>
+                    </li>
                   </>
                 ))}
-              </div>
+              </ul>
             </nav>
           </div>
         </div>
@@ -126,19 +127,23 @@ const Navbar = () => {
             <div className="py-5 px-5 max-w-[700px]">
               <ul className="flex flex-row space-x-10 md:space-x-20 ">
                 {footerLinksnav.map((footerlink) => (
-                  <li key={footerlink.title}>
-                    {footerlink.title}
+                  <li key={footerlink.id}>
+                   
+                      <a href=""> {footerlink.title}</a>
+                   
 
-                    <div className="py-2">
+                    <ul className="py-2">
                       {footerlink.links.map((link) => (
-                        <li
-                          key={link.name}
-                          className="px-2 py-1 text-color-hover  text-base font-thin text-gray-300  cursor-pointer"
-                        >
-                          {link.name}
+                        <li key={link.id}>
+                          <a
+                            href="#"
+                            className="px-2 py-1 text-color-hover  text-base font-thin text-gray-300  cursor-pointer"
+                          >
+                            {link.name}
+                          </a>
                         </li>
                       ))}
-                    </div>
+                    </ul>
                   </li>
                 ))}
               </ul>
@@ -150,6 +155,6 @@ const Navbar = () => {
       </div>
     </>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

@@ -133,34 +133,42 @@ export const stats = [
 
 export const footerLinksnav = [
   {
+    id: 1,
     title: "Useful Links",
     links: [
       {
+        id: 1,
         name: "Content",
         link: "https://www.hoobank.com/content/",
       },
       {
+        id: 2,
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
+        id: 3,
         name: "Create",
         link: "https://www.hoobank.com/create/",
       },
     ],
   },
   {
+    id: 2,
     title: "Community",
     links: [
       {
+        id: 1,
         name: "Help Center",
         link: "https://www.hoobank.com/help-center/",
       },
       {
+        id: 2,
         name: "Partners",
         link: "https://www.hoobank.com/partners/",
       },
       {
+        id: 3,
         name: "Suggestions",
         link: "https://www.hoobank.com/suggestions/",
       },
