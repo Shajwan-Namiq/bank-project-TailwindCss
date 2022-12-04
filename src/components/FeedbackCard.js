@@ -9,6 +9,11 @@ const FeedbackCard = ({ content, name, title, img }) => {
           <div className="flex items-center justify-center w-full  ">
             <section className=" section-hover cursor-pointer ">
               <div className="p-8  border rounded-xl dark:border-gray-700">
+                <img
+                  src={quotes}
+                  alt="double_quotes"
+                  className="w-[42.6px] h-[27.6px] object-contain mb-10"
+                />
                 <p className="leading-loose text-section lg:h-32">{content}</p>
 
                 <div className="flex items-center mt-8 -mx-2">

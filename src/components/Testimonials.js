@@ -1,8 +1,10 @@
 // Import Swiper React components
+import { logo } from "../assets";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { feedback } from "../constants";
 import FeedbackCard from "./FeedbackCard";
-import { useSwiper } from "swiper/react";
+//import { useSwiper } from "swiper/react";
 import SwiperCore, { EffectCoverflow } from "swiper";
 // Import Swiper styles
 import "swiper/css";
@@ -15,7 +17,7 @@ import  "../slider.css";
 SwiperCore.use([EffectCoverflow, Pagination]);
 
 const Testimonials = () => {
-  const swiper = useSwiper();
+  //const swiper = useSwiper();
 
   return (
     <>
