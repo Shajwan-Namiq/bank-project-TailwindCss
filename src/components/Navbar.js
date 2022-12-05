@@ -3,7 +3,6 @@ import { logo } from "../assets";
 import { navLinks, footerLinksnav } from "../constants";
 import { useState } from "react";
 
-
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const [active, setActive] = useState("Home");
@@ -53,11 +52,7 @@ const Navbar = () => {
                         activestyle={{ color: "red" }}
                         className={` 
                         ${active === nav.title ? "text-nav" : "text-color"}
-                        ${
-                          index === navLinks.length - 1
-                            ? "mr-0"
-                            : "mr-10"
-                        }
+                        ${index === navLinks.length - 1 ? "mr-0" : "mr-2"}
              
                        px-2 text-base font-medium  text-color-hover cursor-pointer`}
                         onClick={() => setActive(nav.title)}
@@ -113,18 +108,18 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-8">
-                  <ul>
-                    {navLinks.map((link) => (
-                      <>
-                        <a
-                          key={link.name}
-                          href={link.link}
-                          className=" text-color-hover -m-3 p-3 flex items-center rounded-md   "
-                        >
-                          {link.title}
-                        </a>
-                      </>
+                <nav>
+                  <ul className="grid gap-y-8">
+                    {navLinks.map((nav, index) => (
+                      <li
+                        key={nav.id}
+                        className={`
+                           ${active === nav.title ? "text-nav" : "text-color"}
+                           text-color-hover -m-3 py-1 px-2 flex items-center rounded-md  `}
+                        onClick={() => setActive(nav.title)}
+                      >
+                        <a href={`#${nav.id}`}>{nav.title}</a>
+                      </li>
                     ))}
                   </ul>
                 </nav>
@@ -132,28 +127,30 @@ const Navbar = () => {
             </div>
 
             <div className="py-5 px-5 max-w-[700px]">
-              <ul className="flex flex-row space-x-10 md:space-x-20 ">
-                {footerLinksnav.map((footerlink) => (
-                  <li key={footerlink.id}>
-                    <a href=""> {footerlink.title}</a>
+              <div className="flex flex-row space-x-10 md:space-x-20 ">
+                {footerLinksnav.map((footerlink, index) => (
+                  <div key={index}>
+                    <h2>
+                      {footerlink.title}
 
-                    <ul className="py-2">
-                      {footerlink.links.map((link) => (
-                        <li key={link.id}>
-                          <a
-                            href="#"
+                      <ul className="py-2">
+                        {footerlink.links.map((link) => (
+                          <li
+                            key={link.name}
                             className="px-2 py-1 text-color-hover  text-base font-thin text-gray-300  cursor-pointer"
                           >
-                            {link.name}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
+                            <a
+                              href={link.link}
+                             >
+                              {link.name}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </h2>
+                  </div>
                 ))}
-              </ul>
-
-              <div></div>
+              </div>
             </div>
           </div>
         </div>
